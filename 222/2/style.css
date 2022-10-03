@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+}
+body{
+    background-color: gainsboro;
+
+}
+.container{
+    margin: 20px auto;
+    background-color: gainsboro;
+    width: 1250px;
+    height: 700px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    position: relative;
+}
+.text1{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+h1{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.text2{
+    font-size: 19px;
+}
+.img{
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background: #000;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+}
+.img img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+
+}
